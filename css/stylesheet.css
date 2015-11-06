@@ -172,7 +172,7 @@ div.right_div {
 }
 
 .right_div h5 {
-    font-family: 'ralewaymedium';
+    font-family: 'ralewaymedium', Arial, sans-serif;
     text-transform: uppercase;
     font-size: 30px;
     word-spacing: 2px;
@@ -206,8 +206,212 @@ a.zobacz_wiecej {
 
 
 /* white section */
-section.white {
+.white {
     background-color: white;
     border: 1px solid green;
     height: 348px;
 }
+
+.box{
+    border: 1px solid #dbdbdb;
+    /*width: 328px;*/
+    width: 31%;
+    height: 228px;
+    display: inline-block;
+    margin-top: 28px;
+    vertical-align: top;
+}
+
+.margin {
+    width:2%;
+    display: inline-block;
+}
+.box h2 {
+    font-family: 'ralewaybold';
+    font-size: 12px;
+}
+
+.box img {
+    display: inline-block;
+    /*position: relative;*/
+}
+
+.box_one {
+    background-image: url("../images/box1_img.jpg");
+}
+
+.box_two {
+    background-image: url("../images/box2_img.jpg");
+}
+
+.box_three {
+    height: 253px;
+}
+
+.box_three h2 {
+    margin: 30px 20px 0px 30px;
+}
+
+.box_one h2, .box_two h2 {
+    background-color: rgba(255, 255, 255, 0.4);
+    /*border: 1px solid pink;*/
+    display: inline-block;
+    margin-top: 150px;
+    width: 100%;
+    height: 60px;
+    padding: 20px 0px 10px 20px;
+    /*border-bottom: 3px solid #2ed3b5 ;*/
+}
+
+.box_three p {
+    font-family: 'ralewaylight';
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 20px 20px 30px 30px;
+}
+
+
+
+/*.line {*/
+    /*height: 4px;*/
+    /*width: 80px;*/
+    /*background-color: #24ba9f;*/
+/*}*/
+
+.linia {
+    height: 4px;
+    width: 130px;
+    background-color: #24ba9f;
+    display: block;
+    margin-top: 2px;
+}
+
+
+/*cennik*/
+
+.cennik {
+    height: 729px;
+    background-color: #f1f1f1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cennik h3 {
+    font-family: 'ralewaymedium';
+    color: #595959;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.box_cennik {
+    width: 31%;
+    height: 500px;
+    display: inline-block;
+    margin-top: 40px;
+    vertical-align: top;
+    text-align:  center;
+    position: relative;
+}
+
+/*cennik left i right*/
+
+.cennik_left, .cennik_right {
+    border: 1px solid #d5d5d5;
+    background-color: #f9f9f9;
+}
+
+/*cennik left i right - head */
+.cennik h2 {
+    font-family: 'ralewaylight';
+    color: #27c7ab;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*cennik left i right - cena w kółku */
+.cena_kolo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    margin: auto;
+}
+
+.cena_kolo .p1 {
+    text-align: center;
+    font-family: 'ralewaybold';
+    font-size: 40px;
+    margin-bottom:0px;
+}
+
+.cena_kolo .p2 {
+    text-align: center;
+    font-family: 'ralewaybold';
+    font-size: 10px;
+}
+
+/*cennik left i right - lista */
+
+.box_cennik ul {
+    margin-top: 20px;
+}
+
+.box_cennik li{
+    padding: 10px;
+    color: #767676;
+    text-align: center;
+    font-family: 'ralewaylight';
+    list-style: none;
+}
+
+
+.box_cennik li:nth-child(-2n+3) {
+    background-color: #e4e4e4 ;
+}
+
+.box_cennik li:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+/*cennik left i right - button */
+
+a.dolacz {
+    font-family: 'ralewaylight';
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #24ba9f;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 37%;
+
+}
+
+/*cennik center*/
+
+.cennik_center h2 {
+    font-family: 'ralewaylight';
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cennik_center {
+    border: 1px solid #d5d5d5;
+    background-color: #27c7ab;
+}
+
+
+
+
