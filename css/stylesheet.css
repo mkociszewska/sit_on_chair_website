@@ -76,6 +76,19 @@
 
 }
 
+@font-face {
+    font-family: 'ralewayextralight';
+    src: url('../fonts/raleway-extralight.eot');
+    /*src: url('fo') format('embedded-opentype'),*/
+    src: url('../fonts/raleway-extralight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway-extralight.woff2') format('woff2'),
+    url('../fonts/raleway-extralight.woff') format('woff'),
+    url('../fonts/raleway-extralight.ttf') format('truetype'),
+    url('../fonts/raleway-extralight.svg#ralewayextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* top menu */
 * {
     box-sizing: border-box;
@@ -296,7 +309,7 @@ a.zobacz_wiecej {
     padding-bottom: 40px;
 }
 
-.cennik h3 {
+.head {
     font-family: 'ralewaymedium';
     color: #595959;
     text-transform: uppercase;
@@ -391,7 +404,7 @@ a.dolacz {
     border-radius: 5px;
     position: absolute;
     bottom: 10px;
-    left: 37%;
+    left: 38%;
 
 }
 
@@ -412,6 +425,48 @@ a.dolacz {
     background-color: #27c7ab;
 }
 
+/* kontakt */
+
+.kontakt {
+    padding-top: 20px;
+    height: 745px;
+    background: #fff;
+    border: 1px solid blue;
+    display: block;
+}
+
+.lewyformularz {
+    margin-top: 20px;
+    width: 60%;
+    height: 370px;
+    display: block;
+    border: 1px solid green;
+    float: left;
+}
+
+.leftform input {
+    display: block;
+    width: 100%;
+    border: 1px solid #a1e6d1;
+    padding: 10px;
+    margin: 0px 20px 20px 0px;
+}
+
+.form-control {
+    font-size: 30px;
+    font-family: 'ralewayextralight';
+}
+.form-control.wiadomosc {
+    height: 200px;
+    vertical-align: top;/**/
+}
 
 
 
+
+.prawyformularz {
+    margin-top: 20px;
+    border: 1px solid pink;
+    width: 40%;
+    float: right;
+}
